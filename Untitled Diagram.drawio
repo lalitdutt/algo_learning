@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-05-29T11:26:39.189Z" agent="5.0 (X11)" version="13.1.1" etag="uiKbtVqGoaHuGPfqkaIB" type="github"><diagram id="zYJQ3mnLZKTOGdp3e5wG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-05-29T11:58:02.863Z" agent="5.0 (X11)" etag="0w_awzFs7zhU2zaWcxqV" version="13.1.1" type="github">
+  <diagram id="zYJQ3mnLZKTOGdp3e5wG" name="Page-1">
+    <mxGraphModel dx="1355" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#000000;endArrow=none;endFill=0;" edge="1" parent="1" source="oPwiGLoJO0E7BP7tBKvd-1" target="oPwiGLoJO0E7BP7tBKvd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-1" value="&lt;div&gt;Entity: Player&lt;/div&gt;&lt;div&gt;Attributes:&lt;/div&gt;&lt;div&gt;{player_id,&lt;/div&gt;&lt;div&gt;player_name,&lt;/div&gt;&lt;div&gt;country,&lt;/div&gt;&lt;div&gt;playing,&lt;/div&gt;&lt;div&gt;team_ id}&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-2" value="&lt;div&gt;Entity: Team&lt;/div&gt;&lt;div&gt;Attribute:&lt;/div&gt;&lt;div&gt;{name,team_id,&lt;/div&gt;&lt;div&gt;worth etc}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="185" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-3" value="&lt;div&gt;Conceptual Modelling: &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Entity:&lt;/div&gt;&lt;div&gt;1) Real World object &lt;br&gt;&lt;/div&gt;&lt;div&gt;2) Entity has properties or attributes&lt;/div&gt;&lt;div&gt;3) Functionality&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="810" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-7" value="&lt;div&gt;Relations :&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;one to one &lt;br&gt;&lt;/div&gt;&lt;div&gt;one to many&lt;/div&gt;&lt;div&gt;Many to one &lt;br&gt;&lt;/div&gt;&lt;div&gt;Many to Many&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-10" value="Player -&amp;gt; Team Many to one" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="380" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-12" value="&lt;div&gt;Logical Modeling: &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="810" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-13" value="&lt;div&gt;Table: player&lt;/div&gt;&lt;div&gt;Column:&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;player_id int,&lt;/div&gt;&lt;div&gt;player_name varchar(30),&lt;/div&gt;&lt;div&gt;country_code varchar(3),&lt;/div&gt;&lt;div&gt;playing_style varchar(20) ,&lt;/div&gt;&lt;div&gt;team_ id int&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Primary key : player_id&lt;/div&gt;&lt;div&gt;&lt;br&gt; &lt;/div&gt;&lt;div&gt;Foreigen Key : team_id&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="870" width="310" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-14" value="&lt;div&gt;Physical Modeling: &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="810" width="810" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-15" value="&lt;div&gt;Table: Team&lt;/div&gt;&lt;div&gt;Column:&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;team_id int,&lt;/div&gt;&lt;div&gt;name varchar(35) ,&lt;/div&gt;&lt;div&gt;worth float&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Primary key: team id &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="870" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-16" value="&lt;div&gt;Entity: Player&lt;/div&gt;&lt;div&gt;Attributes:&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;player_id Numeric ,&lt;/div&gt;&lt;div&gt;player_name String ,&lt;/div&gt;&lt;div&gt;country String,&lt;/div&gt;&lt;div&gt;playing String,&lt;/div&gt;&lt;div&gt;team_ id Numeric&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="580" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oPwiGLoJO0E7BP7tBKvd-18" value="Reference : https://www.guru99.com/data-modelling-conceptual-logical.html" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="480" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
